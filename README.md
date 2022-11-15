@@ -28,7 +28,7 @@ function CheckQuest()
 
                 CFrameMon = CFrame.new(-1443.7662353515625, 61.851966857910156, -47.555946350097656)
 
-                CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922)
+                CFrameQuest = CFrame.new(-1599.819458007812963378906, 153.0706024169922)
 
                 elseif Lv == 15 or Lv <= 29 then
 
@@ -40,7 +40,7 @@ function CheckQuest()
 
                 NameQuest = "JungleQuest"
 
-                CFrameMon = CFrame.new(-1443.7662353515625, 61.851966857910156, -47.555946350097656)
+                CFrameMon = CFrame.new(-1443.7662353515625, , -47.555946350097656)
 
                 CFrameQuest = CFrame.new(-1599.8194580078125, 36.852149963378906, 153.0706024169922) 
 
@@ -62,7 +62,7 @@ function CheckQuest()
 
     Weapon = {}
 
-    for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+    for i,v in pairs(game:GetService("Players").ฃ()) do
 
         if v:IsA"Tool" then
 
